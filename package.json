@@ -1,0 +1,26 @@
+{
+  "name": "blueprint-node-express-es5-app",
+  "version": "0.0.1",
+  "description": "Blueprint for building express js application to expose API's which integrate with Mongoose DB at the back end. This code is based on ES5 standards",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rsjain1978/blueprint-node-express-es5-app.git"
+  },
+  "keywords": [
+    "NodeJs",
+    "ExpressJS",
+    "MongoDB",
+    "ES5"
+  ],
+  "author": "Rahul Jain",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rsjain1978/blueprint-node-express-es5-app/issues"
+  },
+  "homepage": "https://github.com/rsjain1978/blueprint-node-express-es5-app#readme"
+}
