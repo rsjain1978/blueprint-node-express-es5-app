@@ -1,2 +1,2 @@
-#do not check node_modules
+#do not commit node_modules
 /node_modules
