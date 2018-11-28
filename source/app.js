@@ -1,14 +1,15 @@
 const express = require ('express');
-console.log ('Initialized Express object..');
-
-const appRoutes = require ('./app-router');
-console.log ('Application router initialized..'+appRoutes);
-
 const app = express();
-console.log ('Initialized applicaton object..');
+console.log ('Application object initialized..');
 
-app.use (appRoutes);
+const appRouter = require ('./application-router');
+console.log ('Application router initialized..');
 
+app.use ('/api',appRouter);
+
+/**
+ * Configure application to listen on port 80.
+ */
 app.listen(80, () => {
     console.log ('Application listening on port 80');
 });
